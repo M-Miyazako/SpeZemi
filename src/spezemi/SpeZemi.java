@@ -12,12 +12,17 @@ package spezemi;
 public class SpeZemi
 {
 
+	public static int JobA(int num)
+	{
+		return num * 10;
+	}
+
 	/**
 	 * @param args the command line arguments
 	 */
 	public static void main(String[] args)
 	{
-		// TODO code application logic here
+		System.out.println(JobA(100));
 	}
 
 }
