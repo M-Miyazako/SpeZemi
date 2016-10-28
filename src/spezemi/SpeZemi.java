@@ -12,6 +12,11 @@ package spezemi;
 public class SpeZemi
 {
 
+	public static int JobA(int num)
+	{
+		return num * 10;
+	}
+
 	public static int JobB(int num)
 	{
 		return num / 10;
@@ -22,6 +27,7 @@ public class SpeZemi
 	 */
 	public static void main(String[] args)
 	{
+		System.out.println(JobA(100));
 		System.out.println(JobB(100));
 	}
 
